@@ -1,0 +1,195 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*************** Web Fonts *********************/
+
+@font-face {
+  font-family: 'ArchivoNarrow';
+  src: url('ArchivoNarrow-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+/*************** Fonts *********************/
+
+h1 {
+  
+font-family: "Montserrat", sans-serif;
+font-size: 2.7rem;
+font-weight: 800;
+font-style: normal;
+letter-spacing: 4.3px;
+color: rgb(167, 25, 25);
+text-shadow:2px 2px 1px rgb(221, 141, 124);
+margin-block: 0.8rem;
+}
+
+h2 {
+  font-family: ArchivoNarrow;
+  letter-spacing: 2px;
+  font-size: 1.9rem;
+  margin-block: 0.8rem;
+  color: rgb(123, 69, 39)
+}
+
+h3 {
+  font-family: ArchivoNarrow;
+  letter-spacing: 2.5px;
+  font-size: 1.3rem;
+  margin-block: 0.8rem;
+  color: rgb(154, 30, 21);
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  margin-block: 0.8rem;
+  color: rgb(154, 30, 21);
+}
+
+dl {
+ font-family: ArchivoNarrow;
+ font-size: 1.2rem;  
+ margin-block: 0.8rem;
+ color:rgb(154, 30, 21);
+ font-weight: bold;
+}
+
+ul{
+ font-family: ArchivoNarrow;
+ font-size: 1.2rem;  
+ color:rgb(154, 30, 21);
+}
+
+
+/*************** knap *********************/
+
+.knap {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #b3c9dc;
+  color: rgb(123, 69, 39);
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+  box-shadow: 0 10px 10px rgba(137, 36, 53, 0.168);
+}
+
+.knap:hover {
+  background-color:rgb(198, 141, 141)
+}
+
+/*************** andet *********************/
+
+main {
+  padding: 30px;
+  background-color: rgb(241, 214, 213);
+}
+
+
+footer {
+
+background-color: rgb(241, 214, 213);
+font-family: "Montserrat", sans-serif;
+font-size: 1.2rem;
+color: rgb(88, 55, 36);
+font-weight: 500;
+}
+
+.ul-1{
+margin-left: 2%;
+}
+
+.tekst_min-computer{
+margin-top: -3%
+}
+
+.order-1{
+margin-top: 3%;
+
+}
+
+.tekst1-operativesystemer{
+margin-top: -3%;
+
+}
+
+.tekst2-operativesystemer{
+  margin-top: -3%;
+}
+/*************** menu *********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #cad8e4;
+  box-shadow: 0 10px 10px rgba(137, 36, 53, 0.168);
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color:  rgb(123, 69, 39);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: #ba1111;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+}
